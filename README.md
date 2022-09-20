@@ -8,7 +8,7 @@ The first character will be N, R, or C (normal, reapeating, or chain), next is 0
 
 example:
 ```
-steve@mojang ~$ main.py "N01 give @p diamond && R00 kill herobrine
+steve@mojang ~$ main.py "N01 give @p diamond && R00 kill herobrine"
 ```
 This will return a command that can be run to create a normal command block which will need a redstone signal to execute `give @p diamond`, and a second, repeating command block which does not need redstone containing "kill herobrine".\
 
